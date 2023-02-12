@@ -17,7 +17,6 @@ public class Author {
     @GeneratedValue
     private Long id;
     private String name;
-    @OneToMany(targetEntity = Book.class, mappedBy = "author",
-            fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "author")
     private Set<Book> books;
 }
