@@ -1,5 +1,6 @@
 package com.example.libraryEntitiesAndDbManager.UserPackage.Role;
 
+import com.example.libraryEntitiesAndDbManager.LibraryContentsPackage.Book.Book;
 import com.example.libraryEntitiesAndDbManager.UserPackage.User.User;
 import jakarta.persistence.*;
 import lombok.Getter;
